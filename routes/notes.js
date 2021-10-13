@@ -2,11 +2,11 @@ const app = require("express").Router();
 let dataBase = require("../db/db.json");
 const fs = require("fs");
 
-app.get("/notes", (req, res) => {
+app.get("/api/notes", (req, res) => {
   res.json(dataBase);
 });
 
-app.post("/notes", (req, res) => {
+app.post("/api/notes", (req, res) => {
   let note = req.body;
   console.log(note);
   dataBase.push(note);
