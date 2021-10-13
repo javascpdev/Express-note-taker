@@ -1,0 +1,20 @@
+{
+  "name": "express-note-taker",
+  "version": "1.0.0",
+  "description": "![badge](https://img.shields.io/badge/License-MIT-brightgreen)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARevampedLifeCoding/express-note-taker.git"
+  },
+  "author": "Randy Langston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ARevampedLifeCoding/express-note-taker/issues"
+  },
+  "homepage": "https://github.com/ARevampedLifeCoding/express-note-taker#readme"
+}
