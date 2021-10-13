@@ -12,7 +12,7 @@ app.post("/notes", (req, res) => {
   dataBase.push(note);
 
   fs.writeFile(
-    __dirname + "/../db/db.json",
+    __dirname + "../db/db.json",
     JSON.stringify(dataBase),
     (error) => {
       if (error) throw error;
